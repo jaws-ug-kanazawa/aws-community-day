@@ -1,0 +1,6771 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ja"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="ja"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ja"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ja"> <!--<![endif]-->
+<head>
+
+	<meta charset="UTF-8">
+
+
+
+<title>AWS Community Day Kanazawa</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+
+<meta property="og:url" content="https://awscommunityday2019.jaws-ug.jp/">
+<meta property="og:site_name" content="awscommunityday2019">
+<meta property="og:title" content="AWS Community Day Kanazawa">
+<meta property="og:type" content="website">
+
+
+<meta property="og:description" content="AWS Community Day Kanazawa 開催！ クラウドについてまる1日お話しましょうAWSのユーザーグループ「JAWS-UG 金沢」と「アマゾン ウェブ サービス (AWS)」の共催で、ITビジネスプラザ武蔵にて「AWS Community Day Kanazawa」を開催します。　主にユーザーコミュニティの「JAWS-UG 金沢」が運営と進行を担当し、地元のAWS・クラウドによるソフトウェア開発・IoTやビッグデータ、それら人材の横の交流・育成・採用や、開発手法・スモールスタート、中小企業の取り組み、働き方改革からハンズオンなど、幅広く・奥深く・有意義な勉強会にしたいと考えています。">
+
+<meta property="og:image" content="https://awscommunityday2019.jaws-ug.jp/media/001/201909/2a1216f341ac390b0fdcc8993ae62436.png">
+<meta property="og:image:secure_url" content="https://awscommunityday2019.jaws-ug.jp/media/001/201909/2a1216f341ac390b0fdcc8993ae62436.png" />
+
+<meta property="og:image:width" content="996" />
+<meta property="og:image:height" content="672" />
+<meta name="description" content="AWS Community Day Kanazawa 開催！ クラウドについてまる1日お話しましょうAWSのユーザーグループ「JAWS-UG 金沢」と「アマゾン ウェブ サービス (AWS)」の共催で、ITビジネスプラザ武蔵にて「AWS Community Day Kanazawa」を開催します。　主にユーザーコミュニティの「JAWS-UG 金沢」が運営と進行を担当し、地元のAWS・クラウドによるソフトウェア開発・IoTやビッグデータ、それら人材の横の交流・育成・採用や、開発手法・スモールスタート、中小企業の取り組み、働き方改革からハンズオンなど、幅広く・奥深く・有意義な勉強会にしたいと考えています。">
+<meta name="keywords" content="top, meta, keywords">
+
+<meta name="twitter:title" content="AWS Community Day Kanazawa">
+
+
+<meta name="twitter:card" content="summary">
+
+
+<meta name="twitter:domain" content="awscommunityday2019.jaws-ug.jp">
+
+<meta name="twitter:image" content="https://awscommunityday2019.jaws-ug.jp/media/001/201909/2a1216f341ac390b0fdcc8993ae62436.png">
+
+
+
+
+
+<meta name="twitter:creator" content="@#">
+
+
+
+
+
+
+
+
+
+
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="https://awscommunityday2019.jaws-ug.jp/rss2.xml">
+<link rel="stylesheet" href="/themes/system/css/normalize.css?date=20190801050318" >
+<link rel="stylesheet" href="/themes/system/css/acms-admin.min.css?date=20190801050318">
+<link rel="stylesheet" href="/themes/system/css/acms.min.css?date=20190801050318">
+<link rel="stylesheet" href="/themes/site2019/css/dest/site.min.css?date=20190801050316">
+<link rel="stylesheet" href="/themes/aws__lp__site2019/css/style.css?date=20191101190154">
+<link rel="stylesheet" href="/themes/site2019/css/dest/print.min.css?date=20190801050316" media="print">
+<!-- 構造化データ -->
+
+<script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement":
+	[
+	{
+		"@type": "ListItem",
+		"position": 1,
+		"item":
+		{
+		"@id": "https://awscommunityday2019.jaws-ug.jp/",
+		"name": "HOME"
+		}
+	}
+	]
+}
+</script>
+
+
+
+
+
+
+<script src="/js/library/jquery/jquery-3.4.1.min.js" charset="UTF-8"></script>
+
+<script src="/acms.js?uaGroup=PC&amp;domains=awscommunityday2019.jaws-ug.jp&amp;jsDir=js/&amp;themesDir=/themes/&amp;bid=1&amp;jQuery=3.4.1&amp;jQueryMigrate=migrate-3.0.1&amp;fulltimeSSL=1&amp;v=b768fff4228e1239059c4bef550531ae&amp;umfs=40M&amp;pms=40M&amp;mfu=20&amp;lgImg=:1640&amp;jpegQuality=95&amp;mediaLibrary=on&amp;edition=standard&amp;urlPreviewExpire=48&amp;timemachinePreviewDefaultDevice=PC&amp;scriptRoot=/" charset="UTF-8" id="acms-js"></script>
+<script src="/themes/system/js/modernizr.js?date=20190801050318"></script>
+<script src="/themes/site2019/js/site.js?date=20190801050316" charset="UTF-8"></script>
+
+
+
+
+
+	<script src="/themes/lp__site2019/js/lp.js?date=20190801050316" charset="UTF-8"></script>
+
+<script type="text/javascript" src="/js/dest/vendor.chunk.js?date=20190801050316" charset="UTF-8" async defer></script>
+<script type="text/javascript" src="/js/dest/index.js?date=20190801050316" charset="UTF-8" async defer></script>
+<meta name="generator" content="a-blog cms" />
+</head>
+<body id="top">
+
+
+
+<!-- 公式SNSボタンを使うために必要なJS（公式SNSシェアボタン：/include/parts/sns.htmlを使う時に読み込んでください） -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+
+
+
+
+
+
+
+
+
+<!-- ページタイトル -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ヘッダー -->
+<header class="head-wrapper" role="banner">
+	<div class="acms-container">
+		<div class="header">
+
+			<div class="header-logo">
+				<div>
+					<h1 class="site-name"><a href="https://awscommunityday2019.jaws-ug.jp/">
+						<span class="site-name-text">AWS Community Day Kanazawa</span></a>
+					</h1>
+
+				</div>
+
+				<!-- モバイル：ヘッダーメニュー -->
+				<div class="acms-hide-pc">
+					<nav class="site-header" aria-label="ヘッダーメニュー">
+						<a id="nav-open-btn" href="#mobile-nav" data-target="#mobile-nav" class="nav-menu-btn js-mobile-nav-btn" tabindex="-1" aria-expanded="false"><span class="icon-toggle-menu"></span><span class="nav-menu-btn-text">メニュー</span></a>
+				</div>
+			</div>
+
+			<div class="header-nav">
+				<div class="navbar-side">
+				</div>
+				<div class="acms-grid">
+					<!-- グローバルナビ -->
+
+<nav class="navbar" aria-label="メインメニュー">
+
+
+
+
+
+	<ul>
+		<li  >
+			<a href="#timetable"  class="scrollTo js-offcanvas-close js-mobile-nav-btn" target="">
+			タイムテーブル
+			</a>
+
+
+
+
+
+
+
+
+			</li>
+
+
+
+		<li  class="nav-item js-link_match_location-full">
+			<a href="#sessionoutline"  class="scrollTo js-offcanvas-close js-mobile-nav-btn" target="">
+			セッション情報
+			</a>
+
+
+
+
+
+
+
+
+			</li>
+
+
+
+		<li  class="nav-item js-link_match_location">
+			<a href="#eventoutline"  class="scrollTo js-offcanvas-close js-mobile-nav-btn" target="">
+			イベント概要
+			</a>
+
+
+
+
+
+
+
+
+			</li>
+
+
+
+		<li  class="nav-item js-link_match_location">
+			<a href="#access"  class="scrollTo js-offcanvas-close js-mobile-nav-btn" target="">
+			アクセス
+			</a>
+
+
+
+
+
+
+
+
+			</li>
+
+
+
+		<li  class="nav-item js-link_match_location">
+			<a href="https://jawsug-kanazawa.doorkeeper.jp/"  class="nav-link" target="">
+			無料チケットを取得
+			</a>
+
+
+
+
+
+
+
+
+			</li>
+
+
+
+
+
+
+
+
+	</ul>
+
+<a href="#top" class="acms-hide-tb acms-hide-pc">メニューを閉じる</a>
+</nav>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+
+
+
+
+
+
+
+
+<div class="acms-container">
+
+	<!-- ※管理用パーツ -->
+
+
+
+
+
+</div>
+
+
+<!-- メイン -->
+<main class="main">
+
+
+
+	<!-- 1記事▼▼ -->
+
+
+
+	<style>
+
+		.lp-box-01  {
+		background: rgb(33, 48, 62);
+		}
+
+
+
+	</style>
+
+
+
+	<article class="lp ">
+
+
+		<div class="acms-entry lp-entry eid-20">
+			<div class="acms-container">
+				<div class="acms-grid">
+					<!-- カスタムフィールドの読み込み -->
+
+
+
+
+
+
+<div class="js-unit_group-align acms-entry-unit-full hero">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle img-inline">
+
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201909/5ca8368d9ab1e27b57903501c02d1935.png" alt="AWS Community Day Kanazawa" width="">
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h3 >Presented by</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<ul>
+<li><a href="https://github.com/jaws-ug-kanazawa"><img class="bnr" src="/themes/aws__lp__site2019/images/bnr-jaws-ug.png" alt="JAWS-UG Kanazawa"></a></li>
+<li><a href="https://aws.amazon.com/jp/"><img class="bnr" src="/themes/aws__lp__site2019/images/bnr-aws.png" alt="</li>
+<li>アマゾン ウェブ サービス（AWS）"></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+					<hr class="clearHidden" />
+
+					<!-- 続きを読む -->
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="acms-container">
+
+
+
+
+			<div class="acms-box-medium">
+
+
+
+			</div>
+		</div>
+
+	</article>
+
+
+
+	<style>
+
+
+
+
+	</style>
+
+
+
+	<article class="lp ">
+
+
+		<div class="acms-entry lp-entry eid-13">
+			<div class="acms-container">
+				<div class="acms-grid">
+					<!-- カスタムフィールドの読み込み -->
+
+
+
+
+
+
+<div class="js-unit_group-align acms-entry-unit-full lead">
+
+
+<!-- テキスト -->
+
+<h2>AWS Community Day Kanazawa <br class="acms-show-sp acms-hide-pc">開催！<br>
+クラウドについて<br class="acms-show-sp acms-hide-pc">まる1日お話しましょう</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h3 >2019年11月20日（水） ITビジネスプラザ武蔵</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full lead">
+
+
+<!-- テキスト -->
+
+<h1>無事終了いたしました。ありがとうございました！</h1>
+<h2>当日のtwitterまとめは <a href="https://togetter.com/li/1434105">こちら</a> 。</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<p>　AWSのユーザーグループ「JAWS-UG 金沢」と「アマゾン ウェブ サービス (AWS)」の共催で、ITビジネスプラザ武蔵にて「AWS Community Day Kanazawa」を開催します。<br />
+<br />
+　主にユーザーコミュニティの「JAWS-UG 金沢」が運営と進行を担当し、地元のAWS・クラウドによるソフトウェア開発・IoTやビッグデータ、それら人材の横の交流・育成・採用や、開発手法・スモールスタート、中小企業の取り組み、働き方改革からハンズオンなど、幅広く・奥深く・有意義な勉強会にしたいと考えています。<br />
+<br />
+　SNSのハッシュタグは <em></em><strong>#jawsug #awscommunityday </strong>をフォロー &amp; 発信お願いします。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<p class="acms-text-center"><a class="acms-btn acms-btn-inline acms-btn-large" href="https://jawsug-kanazawa.doorkeeper.jp/events/99056">無料チケットを取得</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h2 >スポンサー &amp; 登壇募集！</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<p>登壇スポンサーや運営協力スポンサーなど募集しております。詳しくは、<a href="https://forms.gle/N26Jwc4CbAeeYbkR8" target="_blank" rel="noopener noreferrer">お問い合わせフォーム</a>より、お問い合わせいただくか、本部の<a href="mailto:aws+jawsug@phalanxware.com">加藤</a>までメールください。<br />
+<br />
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+					<hr class="clearHidden" />
+
+					<!-- 続きを読む -->
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="acms-container">
+
+
+
+
+			<div class="acms-box-medium">
+
+
+
+			</div>
+		</div>
+
+	</article>
+
+
+
+	<style>
+
+
+
+
+	</style>
+
+
+
+	<article class="lp ">
+
+
+		<div class="acms-entry lp-entry eid-18">
+			<div class="acms-container">
+				<div class="acms-grid">
+					<!-- カスタムフィールドの読み込み -->
+
+
+
+
+
+
+<div class="js-unit_group-align acms-entry-unit-full timetable">
+
+
+<!-- テキスト -->
+
+<h2 id="timetable">タイムテーブル</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+<!-- テーブル -->
+<div class="column-table-">
+	<div class="entry-container">
+	<table class="acms-table-scrollable js-table-unit-scroll-hint">
+	<tr>
+		<th>時間</th>
+		<th><div>6F 交流室1</div>トラックA&nbsp;(82名)<div>導入 &amp; 地元事例 &amp; Xtech</div></th>
+		<th><div>6F 交流室2</div>トラックB (62名)<div>サーバレス・AI・IoT</div></th>
+		<th class="  acms-cell-text-nowrap acms-admin-cell-text-nowrap"><div>5F 研修室2</div>ハンズオン(30名)</th>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">10:00〜 開場</th>
+		<td>受付</td>
+		<td>-
+</td>
+		<td>-
+</td>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">10:30 〜</th>
+		<td>キーノートセッション<div>株式会社ドリームガレージ 相羽 大輔 &amp;&nbsp;</div><div>アマゾン ウェブ サービス ジャパン株式会社 亀田 治伸&nbsp;</div><div>『基調講演 ～インフラからテクノロジープラットフォームへ～』</div></td>
+		<td>-</td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">11:30 〜 &nbsp;12:20</th>
+		<td><div>AWS導入セッション&nbsp;</div><div>アマゾン ウェブ サービス ジャパン株式会社  亀田 治伸</div><div>『はじめてのAWS』</div></td>
+		<td><div>IoT ・AI・ビッグデータセッション&nbsp;</div><div>アマゾン ウェブ サービス ジャパン株式会社 舘岡 守</div><div>『今覚えておきたいWell Architected Framework(W-A)と便利なツール 』</div><div><a href="https://youtu.be/goKgzN0ogN0?t=999" target="_blank" rel="noopener noreferrer">動画</a></div></td>
+		<td>-</td>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">12:30 〜 13:20<div><div>ランチ</div><div>&nbsp; セッション
+</div></div></th>
+		<td><div>音声サービス Alexa セッション&nbsp;</div><div>株式会社デジタルキューブ 岡本 秀高</div><div>『AWSでAlexaスキル開発をスケール＆ブーストする』</div><div><a href="https://speakerdeck.com/hideokamoto/awscommunityday-kanazawa-2019" target="_blank" rel="noopener noreferrer">資料</a> <a href="https://youtu.be/mqKt33oQooM?t=234" target="_blank" rel="noopener noreferrer">動画</a><a target="_blank" rel="noopener noreferrer"></a></div></td>
+		<td>-</td>
+		<td>ハンズオン<div>AWSアカウント設定ハンズオンのみ実施</div></td>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">13:30 〜 14:20</th>
+		<td><div>地元事例セッション1</div><div>システムコボ 松本 雄一郎</div><div><a href="https://docs.google.com/presentation/d/1P-9bLZS2lmi9Qzp-jm1ZWHY8VWJkqgFO3ygBsaGP5_M/edit?usp=sharing" target="_blank" rel="noopener noreferrer">資料</a> <a href="https://youtu.be/mqKt33oQooM?t=3862" target="_blank" rel="noopener noreferrer">動画 ※収録トラブルにて1:06:30まで無音声となっております。</a></div><div>『海外リモートワークとAWS運用』</div><div><br></div><div>地元事例セッション2 &amp; MedTech セッション</div><div>131KR Corporation 浅井 了星</div><div>『AWS・Lambdaを活用した薬局向けシステムのプラットフォーム構築』</div></td>
+		<td>サービス・インフラセッション<div>合同会社DMM.com 飯田 涼太</div><div>『３年の運用から辿り着いたAWSクラウド活用の勘所』</div><div><a href="https://speakerdeck.com/mesh1neko/3nian-falseyun-yong-karachan-rizhao-itaawskurautohuo-yong-falsekan-suo" target="_blank" rel="noopener noreferrer">資料</a></div></td>
+		<td rowspan="2"><div>ハンズオン 前半</div><div>退出自由！サーバレス・IoT・AIなどの教材から選択して</div><div>自分のペースで進めるハンズオンです</div></td>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">14:30 〜 15:20</th>
+		<td><div>地元事例セッション3</div><div>株式会社 エイブルコンピュータ Gavrilov Sergey （ガブリロフ・セルゲイ）</div><div>『AWS運用の事例紹介』</div><div><a href="https://youtu.be/38JPm1EO2_I?t=276" target="_blank" rel="noopener noreferrer">動画</a><div><br></div><div>地元事例セッション4</div><div>2 Rythm 清水 雅之 &amp; 玉田工業株式会社 山田 哲史</div><div>『多拠点ガソリンスタンド在庫・販売大量データの漏洩分析・</div><div>リアルタイム監視を支えるAmazon RedshiftとAWSインフラ構築』</div></div></td>
+		<td><div>セキュリティ・セッション</div><div>アマゾン ウェブ サービス ジャパン株式会社 舘岡 守</div><div>『これだけは抑えておきたい！AWSにおけるセキュリティ』</div></td>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">15:30 〜 16:20</th>
+		<td><div>パブリックセクター &amp; CivicTech セッション</div><div>アイパブリッシング株式会社 内閣官房オープンデータ伝道師 福島 健一郎 &amp;</div><div>金沢市都市政策局情報政策課 住民システム係長 北野 大介</div><div>『公共分野におけるクラウドの導入について』</div></td>
+		<td>サーバレスセッション<div>株式会社永和システムマネジメント</div><div>酒井 義仁 &amp; 村上 雅彦</div><div>『拡張して使う Serverless &amp; Amplify』</div><div><a href="https://speakerdeck.com/fossamagna/use-with-extending-serverless-and-amplify" target="_blank" rel="noopener noreferrer">資料</a> <a href="https://youtu.be/goKgzN0ogN0?t=4663" target="_blank" rel="noopener noreferrer">動画  ～1:54:00</a></div></td>
+		<td rowspan="2">ハンズオン 後半<div>退出自由！サーバレス・IoT・AIなどの教材から選択して</div><div>自分のペースで進めるハンズオンです</div><div>(前半に参加できなかった方優先で入場です)</div></td>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">16:30 〜 17:20</th>
+		<td><div>社内インフラ・システム部セッション</div><div>クラスメソッド株式会社 植木 和樹</div><div>『 クラウド活用で 社員数10倍増を乗り切った 6年間のIT施策を振り返る』</div><div><a href="https://www.slideshare.net/kazukiueki76/20190622-jawsug-niigataken-ec2-updates" target="_blank" rel="noopener noreferrer">資料</a> <a href="https://youtu.be/4ovr10xe0NU?t=143" target="_blank" rel="noopener noreferrer">動画</a></div></td>
+		<td>大学生セッション<div>金沢工業大学 大学生 栗山 純平</div><div>『AWSでサーバ運用をしてみる』</div><div><a href="https://speakerdeck.com/iruknuj/awsdesabayun-yong-sitemiru?fbclid=IwAR3St1arz1s1AFCKDwjkxIp0mWq6LGW68bL_2nGkXlxLM32If6ykfPxbk1U" target="_blank" rel="noopener noreferrer">資料</a> <a href="https://www.youtube.com/watch?v=CGlrGWe_qPE" target="_blank" rel="noopener noreferrer">動画</a></div><div><br></div><div>AI セッション</div><div>金沢工業大学 中沢 実</div><div>『初心者のAIは侮れない。』</div></td>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">17:20 〜 18:00ごろ</th>
+		<td>懇親会開場セッティング</td>
+		<td>-</td>
+		<td>-
+</td>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">18:00 〜</th>
+		<td>名刺交換 &amp; 懇親会 &amp; 閉会</td>
+		<td>-
+</td>
+		<td>-
+</td>
+	</tr>
+	<tr>
+		<th class="acms-cell-text-left">19:00 ごろ</th>
+		<td>片付け、撤収</td>
+		<td>-
+</td>
+		<td>-</td>
+	</tr>
+</table>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+					<hr class="clearHidden" />
+
+					<!-- 続きを読む -->
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="acms-container">
+
+
+
+
+			<div class="acms-box-medium">
+
+
+
+			</div>
+		</div>
+
+	</article>
+
+
+
+	<style>
+
+
+
+
+	</style>
+
+
+
+	<article class="lp ">
+
+
+		<div class="acms-entry lp-entry eid-14">
+			<div class="acms-container">
+				<div class="acms-grid">
+					<!-- カスタムフィールドの読み込み -->
+
+
+
+
+
+
+<div class="js-unit_group-align acms-entry-unit-full sessionoutline">
+
+
+<!-- テキスト -->
+
+<h2 id="sessionoutline">セッション情報</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>オープニング</h3>
+
+<p>開会挨拶・会場案内<br/>
+<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/a5da9cdf22d8d844eae4971ac7de94d1.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-a5da9cdf22d8d844eae4971ac7de94d1.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>相羽 大輔</h4>
+
+<h5>株式会社ドリームガレージ 代表取締役</h5>
+
+<p>株式会社ドリームガレージ代表取締役。金沢と妙高高原で暮らすクラウドとWebのエンジニア。2011年よりJAWS-UG金沢コアメンバーとして活動。<br/></p>
+
+<ul>
+<li><a href="https://twitter.com/aibax"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/aibax"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>地元事例セッション2 &amp; MedTech</h3>
+
+<p>AWS・Lambdaを活用した薬局向けシステムのプラットフォーム構築<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="http://pdszero.com/about.html">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-319cfb46227bcd787a76a4ceab256d11.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>浅井 了星</h4>
+
+<h5>131KR Corporation</h5>
+
+<p>薬局向けの新サービスの立ち上げ、運用、販売を行っています。普段は小松にいます。<br/></p>
+
+<ul>
+<li><a href="https://twitter.com/ryosei_asai"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/ryosei.asai"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>サーバレス・サービスインフラセッション</h3>
+
+<p>３年の運用から辿り着いたAWSクラウド活用の勘所<br/><br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/5e8a3ada2f6c814a936f61579a268089.png" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-5e8a3ada2f6c814a936f61579a268089.png" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>飯田 涼太</h4>
+
+<h5>合同会社DMM.com</h5>
+
+<p>DMM.comのサービスプラットフォームシステムの開発者として、ログイン・アカウント登録を司る会員基盤をメインに担当しています。地元金沢を拠点に活動しています。<br/></p>
+
+<ul>
+<li><a href="https://twitter.com/mesh1nek0x0"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/ryota.iida.1"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>社内インフラ・システム部セッション</h3>
+
+<p>クラウド活用で
+社員数10倍増を乗り切った
+6年間のIT施策を振り返る<br/>
+<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/62eae9cd6e4965de67a953aab3c917c1.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-62eae9cd6e4965de67a953aab3c917c1.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>植木 和樹</h4>
+
+<h5>クラスメソッド株式会社</h5>
+
+<p>クラスメソッド株式会社IT推進室室長。AWSとSaaSを活用しつつ、情報システムの立場から、より良い職場環境作りを支援しています。</p>
+
+<ul>
+<li><a href="https://twitter.com/czkuk"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/kazuki.ueki.76"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>音声サービス Alexa セッション</h3>
+
+<p>AWSでAlexaスキル開発をスケール＆ブーストする<br/>
+<br/>
+<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/0fd550d5b0ab7cc8694a1ec45af5c108.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-0fd550d5b0ab7cc8694a1ec45af5c108.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>岡本 秀高</h4>
+
+<h5>株式会社デジタルキューブ</h5>
+
+<p>デジタルキューブ開発者(フロントエンド・Serverless)<br/>
+Shifter / AMIMOTO<br/>
+<br/>
+Alexa Champions<br/>
+AWS Samurai 2017</p>
+
+<ul>
+<li><a href="https://twitter.com/motchi0214"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/HideOkamoto"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>サーバレス・サービスインフラセッション</h3>
+
+<p>AWS運用の事例紹介<br/>
+<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201909/a4249a0d7b37e7f417db4b5541042df4.png" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201909/mode3_w400-a4249a0d7b37e7f417db4b5541042df4.png" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>Gavrilov Sergey （ガブリロフ・セルゲイ）</h4>
+
+<h5>株式会社 エイブルコンピュータ</h5>
+
+<p>ソフトウェアエンジニア</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>キーノートセッション・ハンズオン</h3>
+
+<p>基調講演 ～インフラからテクノロジープラットフォームへ～<br>
+<br></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/0a63b3f559e1f68a107f7a5c9f261829.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-0a63b3f559e1f68a107f7a5c9f261829.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>亀田 治伸</h4>
+
+<h5>アマゾン ウェブ サービス ジャパン株式会社</h5>
+
+<p>アマゾン ウェブ サービス ジャパン株式会社 エバンジェリスト</p>
+
+<ul>
+<li><a href="https://www.facebook.com/harunobu.kameda"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>パブリックセクターセッション</h3>
+
+<p>公共分野におけるクラウドの導入について<br/>
+<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle img-inline">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201909/a4249a0d7b37e7f417db4b5541042df4.png" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201909/a4249a0d7b37e7f417db4b5541042df4.png" alt="" width="">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>北野 大介</h4>
+
+<h5>金沢市都市政策局情報政策課 住民システム係長</h5>
+
+<p>入庁時に情報政策課に配属され、情報政策課に通算１５年在籍。
+現在、住民システム係長として、基幹情報システムやマイナンバー関連システムの運用・管理を担当しているほか、次期基幹情報システムの構築に携わっています。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>大学生の活用事例</h3>
+
+<p>AWSでサーバ運用をしてみる<br>
+<br>
+<br></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/cf139e1ce3e7db08109233a2c8b8c2e0.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-cf139e1ce3e7db08109233a2c8b8c2e0.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>栗山 純平</h4>
+
+<h5>金沢工業大学 学生</h5>
+
+<p>普段はWeb開発を行うエンジニアとして活動しています。AWSは主にアプリケーションのインフラとして利用。</p>
+
+<ul>
+<li><a href="https://twitter.com/_Iruk_"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/profile.php?id=100026714021675"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>サーバレス・サービスインフラセッション</h3>
+
+<p>サーバーレスでロケットスタート（仮）<br>
+<br>
+<br></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/d240c4f8498f6e10f17cb5798d7a6130.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-d240c4f8498f6e10f17cb5798d7a6130.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>酒井 義仁</h4>
+
+<h5>株式会社永和システムマネジメント</h5>
+
+<p>15年ほど大阪でメーカーの受託開発をやってきた後、永和へ転職。カチカチのウォーターフォール開発からバリバリのアジャイル開発へ華麗な転身に成功した。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>地元企業クラウド導入・事例セッション</h3>
+
+<p>多拠点ガソリンスタンド在庫・販売大量データの漏洩分析・リアルタイム監視を支えるAmazon RedshiftとAWSインフラ構築</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201909/a4249a0d7b37e7f417db4b5541042df4.png" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201909/mode3_w400-a4249a0d7b37e7f417db4b5541042df4.png" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>清水 雅之</h4>
+
+<h5>2Rhythm</h5>
+
+<p>Application/Database Enginner.分野 <br>
+システムインテグレーション, Web Service, BI Toolsなど<br>
+ 言語<br>
+ Java(J2EE, Seasar2, Struts, Play2), PHP(CakePHP/Laravel), JavaScript/TypeScript(AngularJS), etc.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>IoT・AI・ビッグデータセッション</h3>
+
+<p>今覚えておきたいWell Architected Framework(W-A)と便利なツール &amp; これだけは抑えておきたい！AWSにおけるセキュリティ<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/7952719a70eab0853e24a3352e23647d.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-7952719a70eab0853e24a3352e23647d.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>舘岡 守</h4>
+
+<h5>アマゾン ウェブ サービス ジャパン株式会社</h5>
+
+<p>アマゾン ウェブ サービス ジャパン株式会社で主にパートナーを支援するパートナーソリューションアーキテクト(PSA)の舘岡 a.k.a. リーダーです。</p>
+
+<ul>
+<li><a href="https://twitter.com/iara"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/Mamoru.Tateoka"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>IoT・AI・ビッグデータセッション</h3>
+
+<p>初心者のAIは侮れない。<br/>
+<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/fd2849bb480172a8712e020d2a056261.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-fd2849bb480172a8712e020d2a056261.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>中沢 実</h4>
+
+<h5>金沢工業大学</h5>
+
+<p>体が不自由な方でも、自分の意志で自由にコントロールできる拡張身体を作るという夢を実現するべく、情報通信分野から教育工学・ロボット工学・画像認識を統合した研究を行っている。</p>
+
+<ul>
+<li><a href="https://twitter.com/nakazawa"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/minoru.nakazawa.kit"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>懇親会</h3>
+
+<p>AWSとコミュニティの歩み<br/>
+<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/ad2afc77bb789f99c317524534ced7a1.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-ad2afc77bb789f99c317524534ced7a1.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>沼口 繁</h4>
+
+<h5>アマゾン ウェブ サービス ジャパン株式会社</h5>
+
+<p>アマゾン ウェブ サービス ジャパン株式会社にて2017年よりコミュニティプログラムを担当。全国各地で開催されるJAWS-UG勉強会に参加し、2年でJALとANAの修行終了。<br/></p>
+
+<ul>
+<li><a href="https://twitter.com/numaguchi"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/shigeru.numaguchi"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>パブリックセクターセッション</h3>
+
+<p>公共分野におけるクラウドの導入について<br/>
+<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/3c9fc780dad15863eb52f960444c6339.png" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-3c9fc780dad15863eb52f960444c6339.png" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>福島 健一郎</h4>
+
+<h5>アイパブリッシング株式会社</h5>
+
+<p>内閣官房オープンデータ伝道師。主に自治体や医療、観光、食などの分野でモバイルやオープンデータを軸にしたアプリやサービス開発を続ける。最近の興味は社会インフラのデジタル化。<br/></p>
+
+<ul>
+<li><a href="https://twitter.com/kenchif"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/kenichirofukushima"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>懇親会</h3>
+
+<p>運営からのご挨拶<br/>
+<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/3b66fa5c5b8085a4c7bebbe4946ff2a5.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-3b66fa5c5b8085a4c7bebbe4946ff2a5.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>ふぁらお加藤</h4>
+
+<h5>ファランクスウェア 代表</h5>
+
+<p>金沢市を中心にソフトウェア・ウェブサービスインフラなどの設計・実装・運用・保守を行っています。JAWS-UG金沢、Kanazawa.rb、コアメンバー。Code for Kanazawa Civic Hack Night 運営メンバー。<br/></p>
+
+<ul>
+<li><a href="https://twitter.com/PharaohKJ"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/pharaohkj"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>社内インフラ・システム部セッション</h3>
+
+<p>海外リモートワークとAWS運用<br/>
+<br/></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201909/a4249a0d7b37e7f417db4b5541042df4.png" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201909/mode3_w400-a4249a0d7b37e7f417db4b5541042df4.png" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>松本 雄一郎</h4>
+
+<h5>システムコボ</h5>
+
+<p>稚内北星学園短期大学(当時)でネットワークに出会い、以後(株)システムコボにてシステム運用に携わり現在に至る。5年前より1年のうち2ヶ月間台湾からリモート中</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>サーバレス・サービスインフラセッション</h3>
+
+<p>サーバーレスでロケットスタート（仮）<br>
+<br>
+<br></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/490b16ecf4818a6dd75e19eb1406834d.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-490b16ecf4818a6dd75e19eb1406834d.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>村上 雅彦</h4>
+
+<h5>株式会社永和システムマネジメント</h5>
+
+<p>Webアプリ、モバイルアプリなどを中心に開発をしているプログラマーです。Java, TypeScriptなどで開発することが多いです。好きなAWSサービスはLambdaです。</p>
+
+<ul>
+<li><a href="https://twitter.com/fossamagna"><span class="acms-icon acms-icon-twitter"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>地元企業クラウド導入・事例セッション</h3>
+
+<p>多拠点ガソリンスタンド在庫・販売大量データの漏洩分析・リアルタイム監視を支えるAmazon RedshiftとAWSインフラ構築</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle img-inline">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201909/a4249a0d7b37e7f417db4b5541042df4.png" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201909/a4249a0d7b37e7f417db4b5541042df4.png" alt="" width="">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>山田 哲史</h4>
+
+<h5>玉田工業株式会社</h5>
+
+<p>玉田工業株式会社にて業界の特色を生かし、地下タンク漏洩管理システムの開発・運営にあたり、IoT導入支援や要件、仕様策定とマネジメントなどを担当。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full sessionoutline">
+
+
+<!-- テキスト -->
+
+<h2 >ハンズオン情報</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!-- テキスト -->
+
+<h3 >入退室は自由です！以下の内容から自分で教材を選択し、自分のペースで進めてください。会場には担当スタッフがおりますのでお気軽に質問ください！<br />
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<ul>
+<li>はじめてのxR 〜 Amazon Sumerian ハンズオン 〜</li>
+<li>はじめてのIoT 〜AWS IoT Core ハンズオン 〜</li>
+<li>はじめてのレコメンド ～Amazon Personalize ハンズオン～</li>
+<li>はじめての認証認可 ～Amazon Cognito ハンズオン～</li>
+<li>はじめての迷路脱出　～AWS Robomaker ハンズオン～</li>
+<li>はじめての時系列データ　～Amazon Forecast ハンズオン～</li>
+<li>はじめてのサーバレス ～Amazon API Gateway-AWS Lambda-Amazon DynamoDB ハンズオン～</li>
+<li>はじめてのサーバレス Powered by Cloud9</li>
+<li>はじめてのAIサービス　～WordPressを利用したAmazonTranslate-Polly-Rekognitionハンズオン～</li>
+<li>はじめてのAWS ～セキュアスケーラブルウェブサービス構築 （VPC/EC2/RDS）～Amazon Lightsail ハンズオン</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="js-unit_group-align acms-entry-unit-full sessionoutline">
+
+
+<!-- テキスト -->
+
+<h2 >運営協力</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>会計部</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/b4113ced2c4a8cb480ca80e62d22aa4a.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-b4113ced2c4a8cb480ca80e62d22aa4a.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>高木 貴之</h4>
+
+<h5>フリーランスプログラマ</h5>
+
+<p>金沢市にてリモートワーク中。AWSを利用したWebサービス・アプリ向けAPIの設計、開発、運用を担当。2018年からJAWS-UG金沢に継続して参加。
+<br/></p>
+
+<ul>
+<li><a href="https://twitter.com/TAKAyuki_atkwsk"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/TAKAyukiatkwsk"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4 sessionitem">
+
+
+<!-- テキスト -->
+
+<h3>印刷物デザイン部・配信</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-sm-6">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/e2558fe474dca03d265bcd0708849054.jpg" data-rel="SmartPhoto[14]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w400-e2558fe474dca03d265bcd0708849054.jpg" alt="" width="400">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h4>松田 康宏</h4>
+
+<h5>印刷会社インフラエンジニア</h5>
+
+<p>金沢市の印刷会社でインフラエンジニアを務めており、AWSを利用したインフラの概念実証を進めている。2017年の第22回 Alexa DaysよりJAWS-UG金沢に参加。
+<br/></p>
+
+<ul>
+<li><a href="https://twitter.com/matyuda"><span class="acms-icon acms-icon-twitter"></span></a></li>
+<li><a href="https://www.facebook.com/yasuhiro.matsuda.100"><span class="acms-icon acms-icon-facebook"></span></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+					<hr class="clearHidden" />
+
+					<!-- 続きを読む -->
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="acms-container">
+
+
+
+
+			<div class="acms-box-medium">
+
+
+
+			</div>
+		</div>
+
+	</article>
+
+
+
+	<style>
+
+
+
+
+	</style>
+
+
+
+	<article class="lp ">
+
+
+		<div class="acms-entry lp-entry eid-15">
+			<div class="acms-container">
+				<div class="acms-grid">
+					<!-- カスタムフィールドの読み込み -->
+
+
+
+
+
+
+<div class="js-unit_group-align acms-entry-unit-full eventoutline">
+
+
+<!-- テキスト -->
+
+<h2 id="eventoutline">イベント概要</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr class="clearHidden">
+
+
+
+<!-- テーブル -->
+<div class="column-table-">
+	<div class="entry-container">
+	<table class="acms-table acms-table-scrollable acms-table-bordered js-table-unit-scroll-hint">
+	<tr>
+		<th>イベント名</th>
+		<td>AWS Community Day Kanazawa</td>
+	</tr>
+	<tr>
+		<th>日時</th>
+		<td>2019年11月20日（水）</td>
+	</tr>
+	<tr>
+		<th>会場</th>
+		<td>&nbsp;ITビジネスプラザ武蔵</td>
+	</tr>
+	<tr>
+		<th>定員</th>
+		<td>140名</td>
+	</tr>
+	<tr>
+		<th>参加費</th>
+		<td>昼食・懇親会軽食付き無料（※チケットは必要）</td>
+	</tr>
+	<tr>
+		<th>懇親会</th>
+		<td>18時ごろ軽食付きで6F交流室1にて</td>
+	</tr>
+</table>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+					<hr class="clearHidden" />
+
+					<!-- 続きを読む -->
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="acms-container">
+
+
+
+
+			<div class="acms-box-medium">
+
+
+
+			</div>
+		</div>
+
+	</article>
+
+
+
+	<style>
+
+
+
+
+	</style>
+
+
+
+	<article class="lp ">
+
+
+		<div class="acms-entry lp-entry eid-16">
+			<div class="acms-container">
+				<div class="acms-grid">
+					<!-- カスタムフィールドの読み込み -->
+
+
+
+
+
+
+<div class="js-unit_group-align acms-entry-unit-full access">
+
+
+<!-- テキスト -->
+
+<h2 id="access">アクセス</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12817.14026968051!2d136.6545779!3d36.5713477!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5ddf18a0914570b2!2zSVTjg5Pjgrjjg43jgrnjg5fjg6njgrbmrabolLU!5e0!3m2!1sja!2sjp!4v1567668975267!5m2!1sja!2sjp" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<h3 > ITビジネスプラザ武蔵</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<p>〒920-0855 石川県金沢市武蔵町14−31 ITビジネスプラザ武蔵 6F 受付</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+					<hr class="clearHidden" />
+
+					<!-- 続きを読む -->
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="acms-container">
+
+
+
+
+			<div class="acms-box-medium">
+
+
+
+			</div>
+		</div>
+
+	</article>
+
+
+
+	<style>
+
+
+
+
+	</style>
+
+
+
+	<article class="lp ">
+
+
+		<div class="acms-entry lp-entry eid-17">
+			<div class="acms-container">
+				<div class="acms-grid">
+					<!-- カスタムフィールドの読み込み -->
+
+
+
+
+
+
+<div class="js-unit_group-align acms-entry-unit-full sponsor">
+
+
+<!-- テキスト -->
+
+<h2 id="sponsor">スポンサー</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle img-inline">
+
+	<a href="https://www.iodata.jp">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201911/78f1a1e62e8581b201fdff85648fa532.png" alt="" width="">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-center js_notStyle acms-col-12">
+
+	<a href="https://www.ipublishing.jp">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w820-fe7b7d2b7c1b641099b763796f21dd70.png" alt="アイパブリッシング株式会社" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-center js_notStyle acms-col-12">
+
+	<a href="http://pdszero.com/about.html">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w820-c40e5b495aa6e86b97b8ee7199f64ad0.png" alt="アサイクル株式会社" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-12">
+
+	<a href="https://15vision.jp">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201909/mode3_w820-64b0393547a6f33bdf3b794ff726da6c.png" alt="15VISION" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-auto js_notStyle acms-col-12">
+
+	<a href="https://www.intec.co.jp">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w820-1d691453858c54b48c08478badc38f20.jpg" alt="INTEC" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-center js_notStyle acms-col-12">
+
+	<a href="https://www.esm.co.jp">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w820-4c899cfff7f934deb6aed27f4036f395.png" alt="株式会社永和システムマネジメント" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-center js_notStyle acms-col-12">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201910/6af7ff806d711d886b920abc18de5fba.png" data-rel="SmartPhoto[17]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w820-6af7ff806d711d886b920abc18de5fba.png" alt="株式会社ドリームガレージ" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-center js_notStyle acms-col-12">
+
+	<a href="http://c8link.com">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w820-c57b71e7adb01edc048d0fa5316283c1.jpg" alt="C8LINK" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-center js_notStyle acms-col-12">
+
+	<a href="https://dmm-corp.com">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w820-cd5702c4cf5a445980228c1fa12c7592.png" alt="DMM.com" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-center js_notStyle acms-col-12">
+
+	<a href="https://www.tamada.co.jp">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201910/mode3_w820-96224c0d30b3cab884f1f40a10786e31.png" alt="玉田工業株式会社" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-center js_notStyle acms-col-12">
+
+	<a href="https://awscommunityday2019.jaws-ug.jp/media/001/201909/7e7b9be9ca30ca0c20d251be36e09dcf.png" data-rel="SmartPhoto[17]">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201909/mode3_w820-7e7b9be9ca30ca0c20d251be36e09dcf.png" alt="2Rhythm" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="js-unit_group-align acms-entry-unit-full acms-col-sm-4">
+
+<hr class="clearHidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- media -->
+<div class="column-media-center js_notStyle acms-col-12">
+
+	<a href="https://www.phalanxware.com">
+		<img class="columnImage" src="https://awscommunityday2019.jaws-ug.jp/media/001/201909/mode3_w820-3a497116041807d96f4c88727740c092.png" alt="PhalanXware" width="820">
+	</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+					<hr class="clearHidden" />
+
+					<!-- 続きを読む -->
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="acms-container">
+
+
+
+
+			<div class="acms-box-medium">
+
+
+
+			</div>
+		</div>
+
+	</article>
+
+
+
+	<style>
+
+
+
+
+	</style>
+
+
+
+	<article class="lp ">
+
+
+		<div class="acms-entry lp-entry eid-21">
+			<div class="acms-container">
+				<div class="acms-grid">
+					<!-- カスタムフィールドの読み込み -->
+
+
+
+
+
+
+
+
+<!-- テキスト -->
+
+<hr>
+<p class="acms-text-center">© JAWS-UG 金沢<br>
+Powered by <a href="https://www.a-blogcms.jp/">a-blog cms</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<hr class="clearHidden" />
+
+					<!-- 続きを読む -->
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="acms-container">
+
+
+
+
+			<div class="acms-box-medium">
+
+
+
+			</div>
+		</div>
+
+	</article>
+
+	<!-- 1記事▲▲ -->
+
+
+
+</main>
+
+
+
+<div class="acms-hide-pc">
+	<div id="mobile-nav" class="js-mobile-nav mobile-nav">
+		<div class="mobile-nav-inner">
+			<nav aria-label="メインメニュー" class="mobile-navbar">
+
+				<!-- スマートフォン用 グローバルナビ -->
+				<div class="acms-hide-pc">
+	<div id="mobile-nav" class="js-mobile-nav mobile-nav">
+		<div class="mobile-nav-inner">
+			<nav aria-label="メインメニュー" class="mobile-navbar">
+				<div>
+
+				<ul class="mobile-navbar-list clearfix">
+				<li  >
+					<a href="#timetable"  class="scrollTo js-offcanvas-close js-mobile-nav-btn" target="">
+						タイムテーブル
+						</a>
+
+
+
+
+
+
+
+
+					</li>
+
+
+
+				<li  class="nav-item js-link_match_location-full">
+					<a href="#sessionoutline"  class="scrollTo js-offcanvas-close js-mobile-nav-btn" target="">
+						セッション情報
+						</a>
+
+
+
+
+
+
+
+
+					</li>
+
+
+
+				<li  class="nav-item js-link_match_location">
+					<a href="#eventoutline"  class="scrollTo js-offcanvas-close js-mobile-nav-btn" target="">
+						イベント概要
+						</a>
+
+
+
+
+
+
+
+
+					</li>
+
+
+
+				<li  class="nav-item js-link_match_location">
+					<a href="#access"  class="scrollTo js-offcanvas-close js-mobile-nav-btn" target="">
+						アクセス
+						</a>
+
+
+
+
+
+
+
+
+					</li>
+
+
+
+				<li  class="nav-item js-link_match_location">
+					<a href="https://jawsug-kanazawa.doorkeeper.jp/"  class="nav-link" target="">
+						無料チケットを取得
+						</a>
+
+
+
+
+
+
+
+
+					</li>
+
+
+
+
+
+
+
+
+				</ul>
+				</div>
+
+
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+
+
+				<div class="mobile-navbar-footer">
+					<!-- SNSアカウントへのリンク -->
+
+<ul class="sns-list clearfix" aria-label="各SNSアカウントページ">
+	<li class="sns-list-item"><a href="https://www.facebook.com/#" class="sns-list-facebook"><span class="acms-icon-facebook-circle" aria-hidden="true"></span><span class="acms-hide-visually">Facebook アカウント</span></a></li>
+	<li class="sns-list-item"><a href="https://twitter.com/#" class="sns-list-twitter"><span class="acms-icon-twitter" aria-hidden="true"></span><span class="acms-hide-visually">Twitter アカウント</span></a></li>
+	<li class="sns-list-item"><a href="https://www.youtube.com/user/#" class="sns-list-youtube"><span class="acms-icon-youtube" aria-hidden="true"></span><span class="acms-hide-visually">YouTube アカウント</span></a></li>
+</ul>
+
+				</div>
+
+			</nav>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
